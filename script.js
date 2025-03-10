@@ -32,6 +32,6 @@ document.getElementById('btnSubmit').onclick = function() {
     })
     .catch(error => {
         console.error('Error fetching data:', error);
-        countryInfo.innerHTML = '<p>Error loading country, your spelling could be wrong you idiot</p>';
+        countryInfo.innerHTML = '<p>Error loading country, your spelling could be wrong</p>';
     });
 };
